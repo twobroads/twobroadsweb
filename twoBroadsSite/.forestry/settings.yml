@@ -5,9 +5,9 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Blog Post
+  label: Blog Posts
 - type: directory
-  path: exampleSite/content/english/blog
+  path: twoBroadsSite/content/english/blog
   label: Post (en)
   create: documents
   match: "**/*"
@@ -16,58 +16,34 @@ sections:
 - type: heading
   label: Author
 - type: directory
-  path: exampleSite/content/english/author
+  path: twoBroadsSite/content/english/author
   label: Author (en)
   create: documents
   match: "**/*"
   templates:
   - author
 - type: heading
-  label: Project
+  label: Pages
 - type: directory
-  path: exampleSite/content/english/project
-  label: Project (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - project
-- type: heading
-  label: Others Pages
-- type: directory
-  path: exampleSite/content/english/about
-  label: About (en)
+  path: twoBroadsSite/content/english/about
+  label: About
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/english/service
-  label: Service (en)
+  path: twoBroadsSite/content/english/contact
+  label: Contact
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/english/pricing
-  label: Pricing (en)
-  create: none
-  match: "*"
-- type: directory
-  path: exampleSite/content/english/faq
-  label: FAQ (en)
-  create: none
-  match: "*"
-- type: directory
-  path: exampleSite/content/english/contact
-  label: Contact (en)
-  create: none
-  match: "*"
-- type: directory
-  path: exampleSite/content/english/pages
-  label: Created Pages (en)
+  path: twoBroadsSite/content/english/pages
+  label: Created Pages
   create: documents
   match: "**/*"
   templates:
   - new-page
 - type: directory
-  path: exampleSite/content/english
-  label: All Pages (en)
+  path: twoBroadsSite/content/english
+  label: All Pages
   create: all
   match: "**/*"
   templates:
@@ -75,24 +51,24 @@ sections:
 - type: heading
   label: Data
 - type: directory
-  path: exampleSite/data/en
-  label: Data (en)
+  path: twoBroadsSite/data/en
+  label: Data
   create: all
   match: "**/*"
 - type: directory
-  path: exampleSite/i18n
+  path: twoBroadsSite/i18n
   label: i18n
   create: documents
   match: "**/*"
 - type: heading
   label: Configuration
 - type: directory
-  path: exampleSite
+  path: twoBroadsSite
   label: Configuration
   create: all
   match: "*.toml"
   new_doc_ext: toml
-upload_dir: exampleSite/static/images
+upload_dir: twoBroadsSite/static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
