@@ -23,23 +23,14 @@ sections:
   templates:
   - author
 - type: heading
-  label: Project
-- type: directory
-  path: exampleSite/content/english/project
-  label: Project (en)
-  create: documents
-  match: "**/*"
-  templates:
-  - project
-- type: heading
-  label: Others Pages
+  label: Pages
 - type: directory
   path: exampleSite/content/english/about
   label: About (en)
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/english/service
+  path: twobroadssite/content/english/service
   label: Service (en)
   create: none
   match: "*"
